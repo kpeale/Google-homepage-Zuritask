@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+  margin-top: 5px;
+  padding: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav img {
+  height: 20px;
+}
+
+main {
+  width: 50%;
+  margin: 6.9rem auto;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 100px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.btn_container {
+  margin-top: 1rem;
+}
+
+.btn_container button {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn_container button:hover {
+  border: 1px solid gray;
+}
+
+footer {
+  background-color: rgb(240, 240, 240);
+}
+
+.footer_top {
+  padding: 1rem;
+  color: gray;
+}
+
+.footer_bottom {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+
+.left a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: gray;
+}
+
+.right a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: gray;
+}
+
+.carbon {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
